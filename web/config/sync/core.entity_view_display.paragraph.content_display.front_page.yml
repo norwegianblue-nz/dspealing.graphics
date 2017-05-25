@@ -1,0 +1,46 @@
+uuid: ff49f397-bf7a-4b21-bca5-34484194f7f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.front_page
+    - field.field.paragraph.content_display.field_content
+    - field.field.paragraph.content_display.field_contentpic
+    - paragraphs.paragraphs_type.content_display
+    - responsive_image.styles.inset
+  module:
+    - ds
+    - responsive_image
+    - text
+third_party_settings:
+  ds:
+    fields:
+      'bundle_field:paragraph':
+        plugin_id: 'bundle_field:paragraph'
+        weight: 0
+        label: above
+        formatter: default
+id: paragraph.content_display.front_page
+targetEntityType: paragraph
+bundle: content_display
+mode: front_page
+content:
+  field_content:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_contentpic:
+    weight: 1
+    label: hidden
+    settings:
+      responsive_image_style: inset
+      image_link: ''
+    third_party_settings: {  }
+    type: responsive_image
+    region: content
+hidden:
+  created: true
+  uid: true

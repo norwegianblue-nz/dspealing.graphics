@@ -1,0 +1,14 @@
+uuid: 997b97b6-6991-4893-a184-1b8c3117a8c3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - info@dspealing.graphics
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

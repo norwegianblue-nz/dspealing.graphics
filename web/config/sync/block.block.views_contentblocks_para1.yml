@@ -1,0 +1,37 @@
+uuid: 90c0fe81-ed20-4c03-a659-4e7bbc908368
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.contentblocks
+  module:
+    - ctools
+    - views
+  theme:
+    - dsp0
+id: views_contentblocks_para1
+theme: dsp0
+region: preface_first
+weight: 0
+provider: null
+plugin: 'views_block:contentblocks-block_1'
+settings:
+  id: 'views_block:contentblocks-block_1'
+  label: Skills
+  provider: views
+  label_display: visible
+  views_label: Skills
+  items_per_page: '1'
+  pager_offset: 0
+  fields:
+    field_contentpara:
+      weight: 0
+      hide: false
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      homepage: homepage
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

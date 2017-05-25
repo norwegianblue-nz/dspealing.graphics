@@ -1,0 +1,42 @@
+uuid: a3f0fee9-b642-4ce7-8524-1cd071f852b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.inlineinset_mo
+    - image.style.inlineinset_narrow
+    - image.style.inlineinset_normal
+    - image.style.inlineinset_tablet
+    - image.style.inlineinset_wide
+  theme:
+    - dsp0
+id: inset
+label: Inset
+image_style_mappings:
+  -
+    breakpoint_id: dsp0.standard.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlineinset_wide
+  -
+    breakpoint_id: dsp0.standard.normal
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlineinset_normal
+  -
+    breakpoint_id: dsp0.standard.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlineinset_narrow
+  -
+    breakpoint_id: dsp0.standard.mobile_landscape
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlineinset_tablet
+  -
+    breakpoint_id: dsp0.standard.mobile_portrait
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlineinset_mo
+breakpoint_group: dsp0.standard
+fallback_image_style: inlineinset_wide

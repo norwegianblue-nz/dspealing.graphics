@@ -1,0 +1,25 @@
+uuid: d19ad262-e787-4bea-a0a4-b11a8648c7b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dsp0
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: dsp0_branding
+theme: dsp0
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

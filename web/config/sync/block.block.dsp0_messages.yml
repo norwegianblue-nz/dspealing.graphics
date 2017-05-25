@@ -1,0 +1,22 @@
+uuid: 7a12f7b2-8e74-4138-a414-dec30e1fa7d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dsp0
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: dsp0_messages
+theme: dsp0
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

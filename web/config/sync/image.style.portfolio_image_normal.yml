@@ -1,0 +1,23 @@
+uuid: a3992450-632b-4178-af5a-82daed850cc0
+langcode: en
+status: true
+dependencies: {  }
+name: portfolio_image_normal
+label: 'Portfolio Image - Normal (320x288)'
+effects:
+  c93b9b85-3654-4780-9b0e-429813932977:
+    uuid: c93b9b85-3654-4780-9b0e-429813932977
+    id: image_scale
+    weight: 1
+    data:
+      width: 320
+      height: null
+      upscale: false
+  e24754b4-d5c8-478b-973d-ee6e8e330450:
+    uuid: e24754b4-d5c8-478b-973d-ee6e8e330450
+    id: image_crop
+    weight: 2
+    data:
+      width: 320
+      height: 288
+      anchor: center-top

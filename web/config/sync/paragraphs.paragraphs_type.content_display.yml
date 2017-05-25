@@ -1,0 +1,6 @@
+uuid: a7e35d9c-89e4-490a-badb-c88aaeb97bb0
+langcode: en
+status: true
+dependencies: {  }
+id: content_display
+label: content_display

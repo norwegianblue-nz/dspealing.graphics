@@ -1,0 +1,40 @@
+uuid: 8aa99323-e689-4a1f-a4a0-4c7a1bf617af
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.portfolio_image_narrow
+    - image.style.portfolio_image_normal
+    - image.style.portfolio_image_wide
+  theme:
+    - dsp0
+id: responsive_portfolio_images
+label: 'Responsive Portfolio Images'
+image_style_mappings:
+  -
+    breakpoint_id: dsp0.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: portfolio_image_normal
+  -
+    breakpoint_id: dsp0.phone
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: portfolio_image_normal
+  -
+    breakpoint_id: dsp0.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: portfolio_image_narrow
+  -
+    breakpoint_id: dsp0.normal
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: portfolio_image_normal
+  -
+    breakpoint_id: dsp0.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: portfolio_image_wide
+breakpoint_group: dsp0
+fallback_image_style: portfolio_image_narrow

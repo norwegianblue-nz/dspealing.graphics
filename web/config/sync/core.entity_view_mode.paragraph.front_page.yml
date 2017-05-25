@@ -1,0 +1,10 @@
+uuid: b66f8fa8-0e8f-4edc-9a94-131a73dbd073
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.front_page
+label: 'Front Page'
+targetEntityType: paragraph
+cache: true

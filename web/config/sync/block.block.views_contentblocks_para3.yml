@@ -1,0 +1,37 @@
+uuid: a2f54a39-58a6-4e11-9fe4-888ebb7eddaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.contentblocks
+  module:
+    - ctools
+    - views
+  theme:
+    - dsp0
+id: views_contentblocks_para3
+theme: dsp0
+region: preface_third
+weight: 0
+provider: null
+plugin: 'views_block:contentblocks-block_1'
+settings:
+  id: 'views_block:contentblocks-block_1'
+  label: Education
+  provider: views
+  label_display: visible
+  views_label: Education
+  items_per_page: '1'
+  pager_offset: 2
+  fields:
+    field_contentpara:
+      weight: 0
+      hide: false
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      homepage: homepage
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

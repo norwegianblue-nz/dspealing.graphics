@@ -1,0 +1,37 @@
+uuid: 58dc2ac1-08c7-4891-9d79-6791864b5783
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.contentblocks
+  module:
+    - ctools
+    - views
+  theme:
+    - dsp0
+id: views_contentblocks_para2
+theme: dsp0
+region: preface_second
+weight: 0
+provider: null
+plugin: 'views_block:contentblocks-block_1'
+settings:
+  id: 'views_block:contentblocks-block_1'
+  label: Experience
+  provider: views
+  label_display: visible
+  views_label: Experience
+  items_per_page: '1'
+  pager_offset: 1
+  fields:
+    field_contentpara:
+      weight: 0
+      hide: false
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      homepage: homepage
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

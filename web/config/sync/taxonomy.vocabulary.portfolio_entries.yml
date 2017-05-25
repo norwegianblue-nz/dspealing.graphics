@@ -1,0 +1,9 @@
+uuid: 112c51e9-e504-41d3-9145-db83762de362
+langcode: en
+status: true
+dependencies: {  }
+name: 'Portfolio Entries'
+vid: portfolio_entries
+description: 'Sites to go into portfolio'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,22 @@
+uuid: 707cf929-5b0d-4b9b-b32f-42d65665a8b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.homepage.body
+    - field.field.node.homepage.field_bg_image
+    - field.field.node.homepage.field_contentpara
+    - node.type.homepage
+  module:
+    - user
+id: node.homepage.full
+targetEntityType: node
+bundle: homepage
+mode: full
+content: {  }
+hidden:
+  body: true
+  field_bg_image: true
+  field_contentpara: true
+  links: true

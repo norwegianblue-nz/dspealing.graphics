@@ -1,0 +1,23 @@
+uuid: f75920c3-a0ee-4df3-8e89-b1803fcd5f92
+langcode: en
+status: true
+dependencies: {  }
+name: portfolio_image_wide
+label: 'Portfolio Image - Wide (400x360)'
+effects:
+  db7d11a3-4558-447a-bf71-4ce293480d22:
+    uuid: db7d11a3-4558-447a-bf71-4ce293480d22
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: null
+      upscale: false
+  c5a5b2be-75bc-42cb-ac20-8fe2d35844d6:
+    uuid: c5a5b2be-75bc-42cb-ac20-8fe2d35844d6
+    id: image_crop
+    weight: 2
+    data:
+      width: 400
+      height: 360
+      anchor: center-top
