@@ -1,0 +1,27 @@
+uuid: 53bef734-e36e-4ae4-b9b1-fc7566e57eb0
+langcode: en
+status: true
+dependencies: {  }
+id: owner
+label: Owner
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access in-place editing'
+  - 'access site in maintenance mode'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'administer taxonomy'
+  - 'delete terms in portfolio_entries'
+  - 'edit any homepage content'
+  - 'edit own homepage content'
+  - 'edit terms in portfolio_entries'
+  - 'use advanced search'
+  - 'use text format full_html'
+  - 'view all revisions'
+  - 'view homepage revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

@@ -129,8 +129,13 @@
     
     {% if bg_imageImageList.0 or page.preface_first %} 
     <section id="nb_fixed-bg0" class="nb_fixed-bg" >
-        <div id="nb_slideshow_bg" class="background-slider" style='background-image: url("{{ bg_imageImageList.0 }}");'>
-        </div>
+        {% if bg_imageImageList.0  %}
+            <div id="nb_slideshow_bg" class="background-slider" style='background-image: url("{{ bg_imageImageList.0 }}");'>
+            </div>
+        {% else %}
+            <div id="nb_slideshow_bg" class="background-slider" style='background-image: url("/sites/dspealing.graphics/themes/custom/dsp0/images/defaultbanner.jpg");'>
+            </div>
+        {% endif %}
         <div id="preface-first-layout" class="nb_fixed-inner preface-first-layout inner-wrapper clearfix">
             {% if page.preface_first %}
                 {{ page.preface_first }}
