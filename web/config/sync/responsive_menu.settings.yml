@@ -17,3 +17,8 @@ breakpoint_css_filepath: 'public://css'
 _core:
   default_config_hash: DgAWl_7_B39CsIvJyK3vxn2mj8fNSQZSQyVRiTlGdrg
 use_breakpoint: true
+allow_admin: false
+wrapper_admin: true
+wrapper_theme: false
+extension_keyboard: true
+pagedim: pagedim
